@@ -124,7 +124,7 @@ static void TimerCallBack(TimerHandle_t timer)
 		printf("Greska_send \n");
 	}
 
-	 uint32_t brojac3 = 0;
+	 static uint32_t brojac3 = 0;
 
 	brojac3++;
 
